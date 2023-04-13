@@ -1,0 +1,38 @@
+{
+    "sorular" : [
+        {
+            "soru":"Türkiye'nin başkenti hangisidir?",
+            "secenekA" : "İstanbul",
+            "secenekB" : "Ankara",
+            "secenekC" : "İzmir",
+            "secenekD" : "Gaziantep",
+            "cevap" : "secenekB"
+        },
+        {
+            "soru":"Türkiye'nin en büyük gölü hangisidir?",
+            "secenekA" : "Van Gölü",
+            "secenekB" : "Tuz Gölü",
+            "secenekC" : "Eğirdir Gölü",
+            "secenekD" : "Beyşehir Gölü",
+            "cevap" : "secenekA"
+
+        },
+        {
+            "soru":"Baklava hangi şehre aittir?",
+            "secenekA" : "Şanlıurfa",
+            "secenekB" : "Kahramanmaraş",
+            "secenekC" : "Gaziantep",
+            "secenekD" : "Hatay",
+            "cevap" : "secenekC"
+
+        },
+        {
+            "soru":"İskender hangi ilimize aittir?",
+            "secenekA" : "İzmir",
+            "secenekB" : "İstanbul",
+            "secenekC" : "Çanakkale",
+            "secenekD" : "Bursa",
+            "cevap" : "secenekD"
+        }
+    ]
+}

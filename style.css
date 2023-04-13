@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    /*Soru alanı ortalama start*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Soru alanı ortalama end*/
+    background-color: bisque;
+    font-family: sans-serif;
+    height: 100vh;
+    overflow: hidden; /*taşma olursa gizle*/
+}
+
+.container{
+    width: 60rem;
+    background-color: burlywood;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.2rem lightgrey;
+    overflow: hidden;
+}
+
+.soruAlani{
+    padding: 4rem;
+}
+
+.container .row h2{
+    text-align: center;
+    padding: 1rem;
+    margin-left: 24%;
+}
+
+ul{
+    list-style: none; /*başdaki noktaları kaldırmak için*/
+}
+
+ul li, .soruAlani p{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer; /*label üzerine gelince ok, el işaretine dönüşsün*/
+}
+
+button{
+    background-color: red;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:hover{
+    background-color: rgb(158, 22, 22);
+}
+
+button:focus{
+    background-color: rgb(153, 15, 15);
+    outline: none;
+}
